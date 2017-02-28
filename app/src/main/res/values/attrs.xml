@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+    <!-- Attributes used to style the Action Bar. -->
+    <declare-styleable name="GridViewGridView">
+
+
+        <!-- Specifies the drawable used for the application icon. -->
+        <attr name="gridLineColor" format="color" />
+        <!-- Specifies the drawable used for the application logo. -->
+        <attr name="gridLineWidth" format="dimension" />
+        <!-- Specifies a background drawable for a second stacked row of the action bar. -->
+        <attr name="showGridLines" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="ParallaxScroll">
+        <attr name="parallax_factor" format="float" />
+        <attr name="alpha_factor" format="float" />
+        <attr name="inner_parallax_factor" format="float" />
+        <attr name="parallax_views_num" format="integer" />
+        <attr name="circular_parallax" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="GamificationCardView">
+        <attr name="label" format="string" />
+        <attr name="description" format="string" />
+        <attr name="hint" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="TypefaceTextView">
+        <attr name="customTypeface" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="FontAwesomeTextView">
+        <attr name="symbol" format="string" />
+        <attr name="android:text" />
+        <attr name="symbolRelativeSize" format="float"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="GifMoviewView">
+        <attr name="gif" format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomTheme">
+        <attr name="gifMoviewViewStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomFontAwesomeTextView">
+        <attr name="customSymbol" format="string"/>
+        <attr name="iconColor" format="reference"/>
+        <attr name="iconSize" format="float"/>
+        <attr name="iconPosition">
+            <enum name="left" value="0" />
+            <enum name="top" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+
+
+
+</resources>

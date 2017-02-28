@@ -1,0 +1,36 @@
+{
+	"Users": [{
+		"id": "c200",
+		"email": "bhuvanesh@gmail.com",
+		"password": "bhuvanesh@123",
+		"address": "xx-xx-xxxx,x - street, x - country",
+		"gender": "male",
+		"phone": {
+			"mobile": "+91 0000000000",
+			"home": "00 000000",
+			"office": "00 000000"
+		}
+	}, {
+		"id": "c201",
+		"email": "hari@gmail.com",
+		"password": "hari@123",
+		"address": "xx-xx-xxxx,x - street, x - country",
+		"gender": "male",
+		"phone": {
+			"mobile": "+91 0000000000",
+			"home": "00 000000",
+			"office": "00 000000"
+		}
+	}, {
+		"id": "c202",
+		"email": "arun@gmail.com",
+		"password": "arun@123",
+		"address": "xx-xx-xxxx,x - street, x - country",
+		"gender": "male",
+		"phone": {
+			"mobile": "+91 0000000000",
+			"home": "00 000000",
+			"office": "00 000000"
+		}
+	}]
+}

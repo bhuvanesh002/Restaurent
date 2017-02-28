@@ -1,0 +1,22 @@
+
+		{
+			"address":[{
+			  "id":0,
+			  "Nickname":"Home",
+			  "addr":"970 sweetflwr dr",
+				"suite":"",
+				"city":"chicago",
+				"state":"Illinois",
+				"zipcode":"34520"
+			},
+			{
+			  "id":1,
+			  "Nickname":"Office",
+				"addr":"3111 algon road",
+				"suite":"1T",
+				"city":"Denver",
+				"state":"Colarado",
+				"zipcode":"64233"
+			}]
+		
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activity.AddressActivity">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary" />
+    <RelativeLayout
+        android:id="@+id/detectloc"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/grey_corner">
+
+        <TextView
+            android:id="@+id/button_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="use my location"
+            android:textColor="@color/red"
+            android:textSize="19dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/button_textview"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:src="@drawable/gps" />
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_below="@+id/detectloc"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+</RelativeLayout>

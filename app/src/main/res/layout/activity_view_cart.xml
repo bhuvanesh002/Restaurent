@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".activity.AddressActivity">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar_vcart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary" />
+
+    <View
+        android:id="@+id/views"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/toolbar_vcart"
+        android:background="@color/lightgrey" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_deliverto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="21dp"
+                android:text="Delivering to"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView_cartaddresstit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_deliverto"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="New Text"
+                android:textColor="@color/red"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView_cartaddressdetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_cartaddresstit"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="New Text"
+                android:textColor="@color/darkgrey"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/lightgrey" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_cart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:scrollbars="vertical" />
+
+            <RelativeLayout
+                android:id="@+id/relative"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/recycler_cart"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/text_cartsubtotaltext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="subTotal"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/text_cartsubtotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Total"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="19dp" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/relative"
+                android:background="@color/grey" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_payment"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/red"
+        android:text="payment"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

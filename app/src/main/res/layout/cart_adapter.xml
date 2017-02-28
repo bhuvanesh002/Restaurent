@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_cart"
+        android:layout_width="fill_parent"
+        android:layout_height="140dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textView_customizaddons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:text="New Text"
+            android:textSize="16dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text_cartmenuname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="helo"
+            android:textColor="@color/red"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <RelativeLayout
+            android:id="@+id/relative_cartnumpick"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/rounded_corner"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/button_cartsubtract"
+                android:layout_width="27dp"
+                android:layout_height="34dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/shape_button"
+                android:text="-"
+                android:textColor="@color/red"
+                android:textSize="25dp" />
+
+            <RelativeLayout
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:background="@color/red">
+
+                <TextView
+                    android:id="@+id/text_cartcounttext"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="24dp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button_cartadd"
+                android:layout_width="27dp"
+                android:layout_height="34dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/shape_button"
+                android:text="+"
+                android:textColor="@color/red"
+                android:textSize="25dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text_cartprice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="100dp"
+            android:text=""
+            android:textColor="@color/darkgrey"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:text="New Text"
+            android:textColor="@color/darkgrey"
+            android:textSize="20dp" />
+    </android.support.v7.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgrey" />
+</LinearLayout>

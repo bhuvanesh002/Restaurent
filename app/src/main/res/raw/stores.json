@@ -1,0 +1,70 @@
+{
+  "loyalty":"400",
+  "tax":[
+    {
+      "name":"VAT",
+      "percentage":"10"
+    },
+    {
+      "name":"ServiceTax",
+      "percentage":"5"
+    }
+  ],
+  "locations": [
+    {
+      "location_id": "11",
+      "location_name": "Lewisham",
+      "address": {
+        "addr": "44 Darnley Road",
+        "suite": "",
+        "city": "Greater London",
+        "state": "London",
+        "zipcode": "E96QH"
+      },
+      "is_opened": true,
+      "delivery_status": "close",
+      "collection_status": "open",
+      "delivery_time": "45",
+      "collection_time": "20",
+      "opening_time": "12:00 AM",
+      "closing_time": "11:59 PM",
+      "min_total": "10",
+      "delivery_close_reason":"Closed due to Local Festival",
+      "collection_close_reason":"",
+      "delivery_charge": "10",
+      "has_delivery": true,
+      "has_collection": true,
+      "last_order_time": "11:59 PM",
+      "distance": 0,
+      "distance_unit": "Miles"
+    },
+    {
+      "location_id": "112",
+      "location_name": "Thoraipakkam",
+      "address": {
+        "addr": "10 Fourrts Avenue",
+        "suite": "Thoraipakam",
+        "city": "Chennai",
+        "state": "Tamilnadu",
+        "zipcode": "600097"
+      },
+      "is_opened": true,
+      "delivery_status": "open",
+      "collection_status": "open",
+      "delivery_time": "60",
+      "collection_time": "10",
+      "opening_time": "12:00 AM",
+      "closing_time": "11:59 PM",
+      "min_total": "10",
+      "delivery_charge": "10",
+      "has_delivery": true,
+      "has_collection": true,
+      "delivery_close_reason":"",
+      "collection_close_reason":"",
+      "last_order_time": "11:59 PM",
+      "distance": 0,
+      "distance_unit": "Miles"
+    }
+  ]
+
+}

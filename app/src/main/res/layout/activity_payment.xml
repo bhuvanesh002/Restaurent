@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+
+    tools:context=".activity.PaymentActivity">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/toolbar_payment"
+        android:background="@color/lightgrey" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="60dp"
+
+
+        android:fillViewport="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/relative"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_below="@+id/recycler_cart"
+                android:layout_marginTop="40dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/text_cartbillsubtotaltext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="subTotal"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/text_cartbillsubtotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Total"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/text_cartpromotext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:text="promo"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="18dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/text_cartpromo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="35dp"
+                    android:text="Total"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="18dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/text_cartloyaltytext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:text="servicetax"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="18dp"
+                    android:visibility="gone" />
+
+
+                <TextView
+                    android:id="@+id/text_cartloyalty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Total"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="18dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/text_cartservicetext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="80dp"
+                    android:text="servicetax"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/text_cartservice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Total"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/text_cartvattext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="105dp"
+                    android:text="vat"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/text_cartvat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="105dp"
+                    android:text="Total"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/text_carttotaltext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Total"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/text_carttotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Total"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/relative"
+                android:background="@color/grey" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="130dp"
+                android:layout_below="@+id/imageView"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="250dp"
+                android:weightSum="1">
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.35"
+                    android:checked="false"
+                    android:text="cash on delivery"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.35"
+                    android:checked="false"
+                    android:text="debit/credit card"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.35"
+                    android:text="netbanking"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="20dp" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/radioGroup"
+                android:background="@color/grey" />
+
+            <TextView
+                android:id="@+id/textView_billsummary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="bill summary"
+                android:textColor="@color/lightblack"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView_paymentoption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/radioGroup"
+                android:layout_below="@+id/relative"
+                android:layout_marginTop="10dp"
+                android:text="payment options"
+                android:textColor="@color/lightblack"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView_addcoupon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/radioGroup"
+                android:layout_below="@+id/radioGroup"
+                android:layout_marginTop="10dp"
+                android:text="add coupon and loyalty points"
+                android:textColor="@color/lightblack"
+                android:textSize="24dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_below="@+id/textView_addcoupon"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/editText_promo"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <javadev.example.com.restaurant.ui.CustomEditText
+                        android:id="@+id/edit_promocode"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/relative"
+                        android:layout_marginTop="30dp"
+                        android:hint="promo code"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/textview_promo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:text="undeyu"
+                    android:textColor="@color/pointcolor"
+                    android:textSize="17sp"
+                    android:visibility="gone" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/editText_loyalty"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view"
+                    android:layout_marginTop="80dp">
+
+
+                    <javadev.example.com.restaurant.ui.CustomEditText
+                        android:id="@+id/edit_loyalty"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:hint="Loyalty points"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/textview_loyalty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="100dp"
+                    android:text="undeyu"
+                    android:textColor="@color/pointcolor"
+                    android:textSize="17sp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/cancel_promo"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/editText_promo"
+                    android:background="@drawable/cancel"
+                    android:textColor="@color/colorPrimary"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/button_promo"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/editText_promo"
+                    android:background="@color/grey"
+                    android:enabled="false"
+                    android:text="apply"
+                    android:textColor="@color/colorPrimary" />
+
+                <Button
+                    android:id="@+id/button_loyalty"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_toRightOf="@id/editText_loyalty"
+                    android:background="@color/grey"
+                    android:enabled="false"
+                    android:text="apply"
+                    android:textColor="@color/colorPrimary" />
+
+                <Button
+                    android:id="@+id/cancel_loyalty"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="95dp"
+                    android:layout_toRightOf="@id/editText_loyalty"
+                    android:background="@drawable/cancel"
+                    android:textColor="@color/colorPrimary"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_billpayment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/red"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:visibility="visible" />
+</RelativeLayout>

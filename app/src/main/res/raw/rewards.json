@@ -1,0 +1,26 @@
+{
+"status": 1,
+"err_msg":"",
+"total_points":"60",
+"user_name":"Andrew",
+"history": [
+{
+                "location":"Chennai",
+"date":"23-May-2016",
+"points":"50",
+"operation":"add"
+            },
+{
+                "location":"Kovai",
+"date":"08-Oct-2016",
+"points":"20",
+"operation":"redeem"
+            },
+{
+                "location":"Chennai",
+"date":"14-Dec-2016",
+"points":"10",
+"operation":"add"
+            }
+]
+}

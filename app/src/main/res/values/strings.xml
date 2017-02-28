@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string name="home">SMART MENU</string>
+    <string name="matching_pass">Password Mismatched</string>
+    <string name="enter_all_fields">Please Enter All Fields</string>
+    <string name="valid_email">Please Enter Valid Email</string>
+    <string name="valid_mobile">Please Enter PhoneNo</string>
+    <string name="valid_password">Password Should have Special characters</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="invalid_phoneno">Invalid PhoneNo</string>
+    <string name="invalid_password">Password contain Minimum 8 characters ( letters ,1 number ,1
+        special character )
+    </string>
+    <string name="valid_username">Please Enter Valid Username/Password</string>
+    <string name="success">Login Successfully</string>
+    <string name="valid_user">Username is too short</string>
+    <string name="any_address">Please select any one address</string>
+    <string name="rewards">REWARDS</string>
+    <string name="pickups">PICKUP</string>
+    <string name="payment">PAYMENT</string>
+    <string name="order_history">ORDER HISTORY</string>
+    <string name="select_any_option">Please select any Payment option</string>
+
+
+    <string name="success_register">Successfully Registered</string>
+    <string name="enter_address">ENTER ADDRESS</string>
+    <string name="delivery">DELIVERY</string>
+    <string name="carttitle">CART</string>
+    <string name="pickup">ORDER FOR PICKUP</string>
+    <string name="arrow">&#xf105;</string>
+    <string name="user">&#xf234;</string>
+    <string name="cart">&#xf291;</string>
+
+</resources>
+

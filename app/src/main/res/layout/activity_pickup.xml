@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar_pickup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/textView_pickup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:text="FInd a location for order pickup :"
+        android:textColor="@color/black"
+        android:textSize="28dp" />
+
+    <RelativeLayout
+        android:id="@+id/detectloc"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/grey_corner">
+
+        <TextView
+            android:id="@+id/button_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="use my location"
+            android:textColor="@color/red"
+            android:textSize="19dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/button_textview"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:src="@drawable/gps" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/recycler_address"
+        android:background="@color/lightgrey" />
+
+    <EditText
+        android:id="@+id/editText_state"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/textView_pickup"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:hint="State"
+        android:inputType="textPersonName"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/editText_city"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/editText_state"
+        android:layout_below="@+id/editText_state"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="City"
+        android:inputType="textPersonName"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/textView_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView_usestate"
+        android:layout_below="@+id/editText_city"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="or"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText_zip"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView_or"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Search By Zip"
+        android:inputType="textPersonName"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/textView_usestate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView_pickup"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="75dp"
+        android:text="use state,city or zip"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@color/red"
+        android:text="confirm"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+</RelativeLayout>

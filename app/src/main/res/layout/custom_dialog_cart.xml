@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="80dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_dialog_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Do you really want to exit your cart ?"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/red">
+
+        <Button
+            android:id="@+id/btn_yes_cart"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:background="@color/red"
+            android:clickable="true"
+            android:text="yes"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_no_cart"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:background="@color/red"
+            android:clickable="true"
+            android:text="No"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+{
+			"status": 1,
+			"err_msg":"",
+			"orderhistory": [
+			{
+				"location":"Thoraipakkam",
+				"date":"23-Jan-2017 10:00:42 AM",
+				"order_number":"6462",
+				"order_type":"pickup",
+				"order_status":"In Preparation",
+				"price":"350"
+            },
+			{
+				"location":"Adyar",
+				"date":"20-Dec-2016 11:34:12 PM",
+				"order_number":"6123",
+				"order_type":"pickup",
+				"order_status":"Delivered",
+				"price":"560"
+            },
+			{
+				"location":"Sholinganallur",
+				"date":"03-Dec-2016 08:12:39 PM",
+				"order_number":"5825",
+				"order_type":"Delivery",
+				"order_status":"Cancelled",
+				"price":"970"
+            }
+			]
+		}

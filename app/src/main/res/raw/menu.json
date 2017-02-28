@@ -1,0 +1,559 @@
+
+
+{
+    "status": 1,
+    "err_msg":"",
+    "menu_count": 12,
+    "categories_count": 11,
+    "menu_list": {
+        "menus": [
+            {
+                "menu_id": "81",
+                "menu_name": "whole catfish with rice and vegetables",
+                "menu_description": "Whole catfish slow cooked in tomatoes, pepper and onion sauce with seasoning to taste",
+                "category_name": "Specials",
+                "category_id": "24",
+                "minimum_qty": "1",
+                "menu_priority": "0",
+                "mealtime_name": "",
+                "start_time": "12:23 AM",
+                "end_time": "12:23 AM",
+                "is_mealtime": "0",
+                "mealtime_status": "0",
+                "special_status": "1",
+                "is_special": "0",
+                "start_date": "",
+                "end_days": "",
+                "menu_price": "£13.99",
+                "menu_photo": "http://localhost/ZydeFood/assets/images/thumbs/no_photo-95x80.png",
+                "menu_options":[
+                    28,23
+                ]
+
+            },
+            {
+                "menu_id": "76",
+                "menu_name": "puff-puff",
+                "menu_description": "Traditional Nigerian donut ball, rolled in sugar",
+                "category_name": "Main Course",
+                "category_id": "16",
+                "minimum_qty": "3",
+                "menu_priority": "0",
+                "mealtime_name": "",
+                "start_time": "12:23 AM",
+                "end_time": "12:23 AM",
+                "is_mealtime": "0",
+                "mealtime_status": "0",
+                "special_status": "1",
+                "is_special": "1",
+                "start_date": "2014-04-23",
+                "end_days": "Ends 18 Jul in 193 days",
+                "menu_price": "£10.00",
+                "menu_photo": "",
+                "menu_options":[
+                    28
+                ]
+
+            },
+            {
+                "menu_id": "86",
+                "menu_name": "yam porridge",
+                "menu_description": "in tomatoes sauce",
+                "category_name": "Vegetarian",
+                "category_id": "20",
+                "minimum_qty": "1",
+                "menu_priority": "0",
+                "mealtime_name": "",
+                "start_time": "12:23 AM",
+                "end_time": "12:23 AM",
+                "is_mealtime": "0",
+                "mealtime_status": "0",
+                "special_status": "0",
+                "is_special": "0",
+                "start_date": "",
+                "end_days": "",
+                "menu_price": "£9.99",
+                "menu_photo": "http://localhost/ZydeFood/assets/images/thumbs/no_photo-95x80.png",
+                "menu_options":[
+                    23
+                ]
+            },
+            {
+                "menu_id": "87",
+                "menu_name": "boiled plantain",
+                "menu_description": "w/spinach soup",
+                "category_name": "Traditional",
+                "category_id": "19",
+                "minimum_qty": "1",
+                "menu_priority": "0",
+                "mealtime_name": "",
+                "start_time": "12:23 AM",
+                "end_time": "12:23 AM",
+                "is_mealtime": "0",
+                "mealtime_status": "0",
+                "special_status": "0",
+                "is_special": "0",
+                "start_date": "",
+                "end_days": "",
+                "menu_price": "£9.99",
+                "menu_photo": "http://localhost/ZydeFood/assets/images/thumbs/no_photo-95x80.png",
+                "menu_options":[
+                    10,20,30
+                ]
+
+            },
+            {
+                "menu_id": "84",
+                "menu_name": "eba",
+                "menu_description": "Grated cassava",
+                "category_name": "Main Course",
+                "category_id": "16",
+                "minimum_qty": "1",
+                "menu_priority": "0",
+                "mealtime_name": "",
+                "start_time": "12:23 AM",
+                "end_time": "12:23 AM",
+                "is_mealtime": "0",
+                "mealtime_status": "0",
+                "special_status": "0",
+                "is_special": "0",
+                "start_date": "",
+                "end_days": "",
+                "menu_price": "£11.99",
+                "menu_photo": "http://localhost/ZydeFood/assets/images/thumbs/no_photo-95x80.png",
+                "menu_options":[
+
+                ]
+            },
+            {
+                "menu_id": "77",
+                "menu_name": "scotch egg",
+                "menu_description": "Boiled egg wrapped in a ground meat mixture, coated in breadcrumbs, and deep-fried.",
+                "category_name": "Appetizer",
+                "category_id": "15",
+                "minimum_qty": "1",
+                "menu_priority": "0",
+                "mealtime_name": "",
+                "start_time": "12:23 AM",
+                "end_time": "12:23 AM",
+                "is_mealtime": "0",
+                "mealtime_status": "0",
+                "special_status": "0",
+                "is_special": "0",
+                "start_date": "",
+                "end_days": "",
+                "menu_price": "£2.00",
+                "menu_photo": "http://localhost/ZydeFood/assets/images/thumbs/no_photo-95x80.png",
+                "menu_options":[
+
+                ]
+            },
+            {
+                "menu_id": "78",
+                "menu_name": "ata rice",
+                "menu_description": "Small pieces of beef, goat, stipe, and tendon sautéed in crushed green Jamaican pepper.",
+                "category_name": "Main Course",
+                "category_id": "16",
+                "minimum_qty": "1",
+                "menu_priority": "0",
+                "mealtime_name": "",
+                "start_time": "12:23 AM",
+                "end_time": "12:23 AM",
+                "is_mealtime": "0",
+                "mealtime_status": "0",
+                "special_status": "0",
+                "is_special": "0",
+                "start_date": "",
+                "end_days": "",
+                "menu_price": "£12.00",
+                "menu_photo": "http://localhost/ZydeFood/assets/images/thumbs/no_photo-95x80.png",
+                "menu_options":[
+
+                ]
+
+            },
+            {
+                "menu_id": "79",
+                "menu_name": "rice and dodo",
+                "menu_description": "(plantains) w/chicken, fish, beef or goat",
+                "category_name": "Main Course",
+                "category_id": "16",
+                "minimum_qty": "1",
+                "menu_priority": "0",
+                "mealtime_name": "",
+                "start_time": "12:23 AM",
+                "end_time": "12:23 AM",
+                "is_mealtime": "0",
+                "mealtime_status": "0",
+                "special_status": "0",
+                "is_special": "0",
+                "start_date": "",
+                "end_days": "",
+                "menu_price": "£11.99",
+                "menu_photo": "http://localhost/ZydeFood/assets/images/thumbs/no_photo-95x80.png",
+                "menu_options":[
+
+                ]
+            },
+            {
+                "menu_id": "85",
+                "menu_name": "amala",
+                "menu_description": "Yam flour",
+                "category_name": "Traditional",
+                "category_id": "19",
+                "minimum_qty": "1",
+                "menu_priority": "0",
+                "mealtime_name": "",
+                "start_time": "12:23 AM",
+                "end_time": "12:23 AM",
+                "is_mealtime": "0",
+                "mealtime_status": "0",
+                "special_status": "0",
+                "is_special": "0",
+                "start_date": "",
+                "end_days": "",
+                "menu_price": "£11.99",
+                "menu_photo": "http://localhost/ZydeFood/assets/images/thumbs/no_photo-95x80.png",
+                "menu_options":[
+
+                ]
+            },
+            {
+                "menu_id": "80",
+                "menu_name": "special shrimp deluxe",
+                "menu_description": "",
+                "category_name": "Seafoods",
+                "category_id": "18",
+                "minimum_qty": "1",
+                "menu_priority": "0",
+                "mealtime_name": "",
+                "start_time": "12:23 AM",
+                "end_time": "12:23 AM",
+                "is_mealtime": "0",
+                "mealtime_status": "0",
+                "special_status": "",
+                "is_special": "0",
+                "start_date": "",
+                "end_days": "",
+                "menu_price": "£12.99",
+                "menu_photo": "",
+                "menu_options":[
+
+                ]
+            },
+            {
+                "menu_id": "82",
+                "menu_name": "african salad",
+                "menu_description": "With baked beans, egg, tuna, onion, tomatoes , green peas and carrot with your choice of dressing.",
+                "category_name": "Salads",
+                "category_id": "17",
+                "minimum_qty": "1",
+                "menu_priority": "0",
+                "mealtime_name": "",
+                "start_time": "12:23 AM",
+                "end_time": "12:23 AM",
+                "is_mealtime": "0",
+                "mealtime_status": "0",
+                "special_status": "",
+                "is_special": "0",
+                "start_date": "",
+                "end_days": "",
+                "menu_price": "£8.99",
+                "menu_photo": "",
+                "menu_options":[
+
+                ]
+            },
+            {
+                "menu_id": "83",
+                "menu_name": "seafood salad",
+                "menu_description": "With shrimp, egg and imitation crab meat",
+                "category_name": "Salads",
+                "category_id": "17",
+                "minimum_qty": "1",
+                "menu_priority": "0",
+                "mealtime_name": "",
+                "start_time": "12:23 AM",
+                "end_time": "12:23 AM",
+                "is_mealtime": "0",
+                "mealtime_status": "0",
+                "special_status": "",
+                "is_special": "0",
+                "start_date": "",
+                "end_days": "",
+                "menu_price": "£5.99",
+                "menu_photo": "http://localhost/ZydeFood/assets/images/thumbs/no_photo-95x80.png",
+                "menu_options":[
+
+                ]
+            }
+        ],
+        "categories": [
+            {
+                "category_id": "15",
+                "name": "Appetizer",
+                "description": "",
+                "priority": "0",
+                "image": "http://localhost/ZydeFood/assets/images/thumbs/banner-discount-800x115.png"
+            },
+            {
+                "category_id": "16",
+                "name": "Main Course",
+                "description": "",
+                "priority": "0",
+                "image": "http://localhost/ZydeFood/assets/images/thumbs/index-banner-800x115.png"
+
+            },
+            {
+                "category_id": "17",
+                "name": "Salads",
+                "description": "",
+                "priority": "0",
+                "image": "http://localhost/ZydeFood/assets/images/thumbs/tab-banner-img1-800x115.png"
+            },
+            {
+                "category_id": "18",
+                "name": "Seafoods",
+                "description": "",
+                "priority": "0",
+                "image": "http://localhost/ZydeFood/assets/images/thumbs/tab-banner-img2-800x115.png"
+            },
+            {
+                "category_id": "19",
+                "name": "Traditional",
+                "description": "",
+                "priority": "0",
+                "image": "http://localhost/ZydeFood/assets/images/thumbs/tab-banner-img3-800x115.png"
+            },
+            {
+                "category_id": "20",
+                "name": "Vegetarian",
+                "description": "",
+                "priority": "0",
+                "image": ""
+            },
+            {
+                "category_id": "21",
+                "name": "Soups",
+                "description": "",
+                "priority": "0",
+                "image": ""
+            },
+            {
+                "category_id": "22",
+                "name": "Desserts",
+                "description": "",
+                "priority": "0",
+                "image": ""
+            },
+            {
+                "category_id": "23",
+                "name": "Drinks",
+                "description": "",
+                "priority": "0",
+                "image": ""
+            },
+            {
+                "category_id": "24",
+                "name": "Specials",
+                "description": "",
+                "priority": "0",
+                "image": ""
+            },
+            {
+                "category_id": "26",
+                "name": "Rice Dishes",
+                "description": "",
+                "priority": "0",
+                "image": "http://localhost/ZydeFood/assets/images/thumbs/tab-banner-img3-800x115.png"
+            }
+        ],
+        "menu_options": [
+            {
+                "menu_option_id": "22",
+                "option_id": "22",
+                "option_name": "Cooked",
+                "display_type": "radio",
+                "priority": "1",
+                "default_value_id": "0",
+                "option_values": [
+                    {
+                        "option_value_id": "8",
+                        "value": "Meat",
+                        "price": "£4.00"
+                    },
+                    {
+                        "option_value_id": "9",
+                        "value": "Chicken",
+                        "price": "£2.99"
+                    },
+                    {
+                        "option_value_id": "10",
+                        "value": "Fish",
+                        "price": "£3.00"
+                    }
+                ]
+            },
+            {
+                "menu_option_id": "25",
+                "option_id": "22",
+                "option_name": "Cooked",
+                "display_type": "radio",
+                "priority": "1",
+                "default_value_id": "0",
+                "option_values": [
+                    {
+                        "option_value_id": "8",
+                        "value": "Meat",
+                        "price": "£4.00"
+                    },
+                    {
+                        "option_value_id": "9",
+                        "value": "Chicken",
+                        "price": "£2.99"
+                    },
+                    {
+                        "option_value_id": "11",
+                        "value": "Beef",
+                        "price": "£4.99"
+                    }
+                ]
+            },
+            {
+                "menu_option_id": "26",
+                "option_id": "22",
+                "option_name": "Cooked",
+                "display_type": "radio",
+                "priority": "1",
+                "default_value_id": "0",
+                "option_values": [
+                    {
+                        "option_value_id": "8",
+                        "value": "Meat",
+                        "price": "£4.00"
+                    },
+                    {
+                        "option_value_id": "9",
+                        "value": "Chicken",
+                        "price": "£2.99"
+                    },
+                    {
+                        "option_value_id": "10",
+                        "value": "Fish",
+                        "price": "£3.00"
+                    },
+                    {
+                        "option_value_id": "11",
+                        "value": "Beef",
+                        "price": "£4.99"
+                    },
+                    {
+                        "option_value_id": "12",
+                        "value": "Assorted Meat",
+                        "price": "£5.99"
+                    }
+                ]
+            },
+            {
+                "menu_option_id": "28",
+                "option_id": "22",
+                "option_name": "Cooked",
+                "display_type": "radio",
+                "priority": "1",
+                "default_value_id": "0",
+                "option_values": [
+                    {
+                        "option_value_id": "8",
+                        "value": "Meat",
+                        "price": "£4.00"
+                    },
+                    {
+                        "option_value_id": "9",
+                        "value": "Chicken",
+                        "price": "£2.99"
+                    },
+                    {
+                        "option_value_id": "10",
+                        "value": "Fish",
+                        "price": "£3.00"
+                    },
+                    {
+                        "option_value_id": "11",
+                        "value": "Beef",
+                        "price": "£4.99"
+                    },
+                    {
+                        "option_value_id": "12",
+                        "value": "Assorted Meat",
+                        "price": "£5.99"
+                    }
+                ]
+            },
+            {
+                "menu_option_id": "23",
+                "option_id": "23",
+                "option_name": "Toppings",
+                "display_type": "checkbox",
+                "priority": "2",
+                "default_value_id": "0",
+                "option_values": [
+                    {
+                        "option_value_id": "7",
+                        "value": "Jalapenos",
+                        "price": "£3.99"
+                    },
+                    {
+                        "option_value_id": "6",
+                        "value": "Peperoni",
+                        "price": "£1.99"
+                    },
+                    {
+                        "option_value_id": "15",
+                        "value": "Sweetcorn",
+                        "price": "£1.99"
+                    }
+                ]
+            },
+            {
+                "menu_option_id": "24",
+                "option_id": "24",
+                "option_name": "Dressing",
+                "display_type": "checkbox",
+                "priority": "3",
+                "default_value_id": "0",
+                "option_values": [
+                    {
+                        "option_value_id": "13",
+                        "value": "Dodo",
+                        "price": "£3.99"
+                    },
+                    {
+                        "option_value_id": "14",
+                        "value": "Salad",
+                        "price": "£2.99"
+                    }
+                ]
+            },
+            {
+                "menu_option_id": "27",
+                "option_id": "24",
+                "option_name": "Dressing",
+                "display_type": "checkbox",
+                "priority": "3",
+                "default_value_id": "0",
+                "option_values": [
+                    {
+                        "option_value_id": "13",
+                        "value": "Dodo",
+                        "price": "£3.99"
+                    },
+                    {
+                        "option_value_id": "14",
+                        "value": "Salad",
+                        "price": "£2.99"
+                    }
+                ]
+            }
+        ]
+    }
+}
